@@ -18,7 +18,7 @@ def arenum(url):
 		if len(links) > 30:
 			info_tour1.append('https://arenum.games'+links)
 
-  del info_tour1[-2]
+	del info_tour1[-2]
 	del info_tour1[-1]
 
 	for info in info_tour1:
